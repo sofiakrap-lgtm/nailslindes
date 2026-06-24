@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gallery — Nails Lindes</title>
-  <meta name="description" content="A gallery of recent work from Nails Lindes — manicures, gel extensions, nail art and pedicures.">
+  <meta name="description" content="A gallery of recent pedicures from Nails Lindes — classic, spa and medical foot care.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -12,10 +12,6 @@
   <link rel="icon" href="assets/logos/mark.svg" type="image/svg+xml">
 </head>
 <body>
-  <div class="demo-bar" role="note">
-    <strong data-i18n="demo.tag">Demo</strong>
-    <span data-i18n="demo.notice">Example site — images and text will be replaced with the client's own.</span>
-  </div>
   <header class="site-header">
     <div class="container site-header__bar">
       <a class="brand" href="index.html" aria-label="Nails Lindes — home">
@@ -51,13 +47,17 @@
           <p data-i18n="gallery.chooseSub">Choose a specialty to view that work.</p>
         </div>
         <div class="gallery-choose">
-          <a class="choose-card reveal" href="gallery-grid.html?cat=mani">
-            <span class="choose-card__media"><img src="assets/img/choose-mani.webp?v=60" alt="" loading="lazy" width="800" height="800"></span>
-            <span class="choose-card__label" data-i18n="gallery.filterMani">Manicure</span>
-          </a>
-          <a class="choose-card reveal" href="gallery-grid.html?cat=feet">
+          <a class="choose-card reveal" href="gallery-grid.html?cat=classic">
             <span class="choose-card__media"><img src="assets/img/choose-feet.webp?v=60" alt="" loading="lazy" width="800" height="800"></span>
-            <span class="choose-card__label" data-i18n="gallery.filterFeet">Pedicure</span>
+            <span class="choose-card__label" data-i18n="gallery.filterClassic">Classic</span>
+          </a>
+          <a class="choose-card reveal" href="gallery-grid.html?cat=spa">
+            <span class="choose-card__media"><img src="assets/img/choose-feet.webp?v=60" alt="" loading="lazy" width="800" height="800"></span>
+            <span class="choose-card__label" data-i18n="gallery.filterSpa">Spa</span>
+          </a>
+          <a class="choose-card reveal" href="gallery-grid.html?cat=medical">
+            <span class="choose-card__media"><img src="assets/img/choose-feet.webp?v=60" alt="" loading="lazy" width="800" height="800"></span>
+            <span class="choose-card__label" data-i18n="gallery.filterMedical">Medical</span>
           </a>
         </div>
       </div>
@@ -66,7 +66,7 @@
     <section class="section--tight section section--dark cta-band">
       <div class="container">
         <h2 data-i18n="gallery.ctaTitle">Like what you see?</h2>
-        <p data-i18n="gallery.ctaBody">Bring a reference or let us design something just for you.</p>
+        <p data-i18n="gallery.ctaBody">Send a photo on WhatsApp and we will plan the right treatment for you.</p>
         <a class="btn btn--light" data-book href="#" data-i18n="cta.bookAppt">Book an appointment</a>
       </div>
     </section>
@@ -79,7 +79,7 @@
           <a class="brand" href="index.html" aria-label="Nails Lindes — home">
             <img class="footer-logo" src="assets/logos/wordmark-light.svg" alt="Nails Lindes" width="170" height="36">
           </a>
-          <p class="muted" style="margin-top:1rem;max-width:34ch" data-i18n="footer.tagline">A boutique nail studio in Spain.</p>
+          <p class="muted" style="margin-top:1rem;max-width:34ch" data-i18n="footer.tagline">A boutique pedicure studio in Spain.</p>
           <img class="footer-illus" src="assets/graphics/footer-illus.svg" alt="" width="120" height="90" style="margin-top:1.6rem">
         </div>
         <div class="footer-col">
@@ -97,7 +97,7 @@
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>2026</span> Nails Lindes. <span data-i18n="footer.rights">All rights reserved.</span></span>
-        <span data-i18n="footer.built">Vintage-elegant nail care.</span>
+        <span data-i18n="footer.built">Vintage-elegant foot care.</span>
       </div>
     </div>
   </footer>

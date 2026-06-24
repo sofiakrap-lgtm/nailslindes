@@ -1055,11 +1055,11 @@ body.home .site-header.is-scrolled::before { opacity: 0; }
   text-transform: uppercase;
 }
 
-/* Offset content below the fixed demo bar (var set by JS; 34px fallback) */
-body { padding-top: var(--demo-h, 34px); }
-.site-header { top: var(--demo-h, 34px); }
+/* Demo bar removed — no offset needed (var stays 0 when the bar is absent) */
+body { padding-top: var(--demo-h, 0px); }
+.site-header { top: var(--demo-h, 0px); }
 body.home { padding-top: 0; }
-body.home .site-header { top: var(--demo-h, 34px); }
+body.home .site-header { top: var(--demo-h, 0px); }
 
 /* ==========================================================================
    Hero wordmark (replaces the badge on the homepage hero)

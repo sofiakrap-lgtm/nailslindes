@@ -4,12 +4,15 @@
    source of truth used across every page (booking links, contact info…).
    ========================================================================== */
 window.NL_CONFIG = {
-  /* External booking platform (Booksy). Replace with the studio's real page. */
-  bookingUrl: "https://booksy.com/",
+  /* Booking happens through WhatsApp. "Book now" buttons (data-book) open this
+     link, so keep it the same as `whatsapp` below. */
+  bookingUrl: "https://wa.me/34600000000",
 
-  /* Contact details — used on contact page + footer */
+  /* Contact details — used on contact page + footer.
+     ⚠️ TODO: replace the placeholder phone / WhatsApp number below with the
+     studio's real number (in `phone` and `whatsapp`). */
   phone:     "+34 600 000 000",
-  email:     "hola@nailslindes.com",
+  email:     "Lindesnatalja@gmail.com",
   whatsapp:  "https://wa.me/34600000000",
   address:   "Calle Ejemplo 12, 29600 Marbella, Málaga, España",
 
