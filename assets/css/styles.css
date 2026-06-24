@@ -437,6 +437,10 @@ ul { margin: 0; padding: 0; list-style: none; }
 .feature h3 { font-size: 1.35rem; margin-bottom: var(--space-1); }
 .feature p { color: var(--text-soft); font-size: 0.98rem; margin: 0; }
 @media (max-width: 760px) { .feature-grid { grid-template-columns: 1fr; gap: var(--space-2); } }
+/* Centered variant: items wrap and a short last row stays centered */
+.feature-grid--wrap { display: flex; flex-wrap: wrap; justify-content: center; }
+.feature-grid--wrap .feature { flex: 0 1 30%; }
+@media (max-width: 760px) { .feature-grid--wrap .feature { flex-basis: 100%; } }
 
 /* ==========================================================================
    Gallery
@@ -1633,6 +1637,8 @@ h1, h2, h3, h4, h5, h6,
   text-shadow: 0 2px 18px rgba(42, 26, 19, .5);
   pointer-events: none;
 }
+/* A lone third card centers under the first two */
+.gallery-choose .choose-card:nth-child(3):last-child { grid-column: 1 / -1; width: min(100%, 430px); margin-inline: auto; }
 @media (max-width: 560px) { .gallery-choose { grid-template-columns: 1fr; } }
 
 /* ==========================================================================
