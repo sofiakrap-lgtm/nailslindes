@@ -149,7 +149,7 @@ window.NL_I18N = {
       heroSub: "A selection of recent pedicures, everyday care, spa treatments and corrective work. New work is added regularly.",
       chooseTitle: "A look at our work",
       chooseSub: "Recent pedicures from the studio.",
-      filterAll: "All", filterClassic: "Classic", filterSpa: "Spa", filterMedical: "Medical",
+      filterAll: "All", filterClassic: "Classic", filterSpa: "Spa", filterGel: "Gel", filterMedical: "Medical",
       ctaTitle: "Like what you see?",
       ctaBody: "Send a photo on WhatsApp and we'll plan the right treatment for you."
     },
@@ -364,7 +364,7 @@ window.NL_I18N = {
       heroSub: "Una selección de pedicuras recientes: cuidado diario, tratamientos spa y trabajo correctivo. Se añaden novedades a menudo.",
       chooseTitle: "Un vistazo a nuestro trabajo",
       chooseSub: "Pedicuras recientes del estudio.",
-      filterAll: "Todo", filterClassic: "Clásica", filterSpa: "Spa", filterMedical: "Médica",
+      filterAll: "Todo", filterClassic: "Clásica", filterSpa: "Spa", filterGel: "Gel", filterMedical: "Médica",
       ctaTitle: "¿Te gusta lo que ves?",
       ctaBody: "Envía una foto por WhatsApp y planeamos el tratamiento ideal para ti."
     },
@@ -579,7 +579,7 @@ window.NL_I18N = {
       heroSub: "Подборка недавних работ, повседневный уход, спа-процедуры и корректирующая обработка. Новые работы добавляются регулярно.",
       chooseTitle: "Взгляд на наши работы",
       chooseSub: "Недавний педикюр из студии.",
-      filterAll: "Все", filterClassic: "Классический", filterSpa: "Спа", filterMedical: "Медицинский",
+      filterAll: "Все", filterClassic: "Классический", filterSpa: "Спа", filterGel: "Гель", filterMedical: "Медицинский",
       ctaTitle: "Нравится то, что видите?",
       ctaBody: "Пришлите фото в WhatsApp, и мы подберём подходящую процедуру."
     },
