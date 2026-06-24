@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery — Nails Lindes</title>
+  <meta name="description" content="A gallery of recent work from Nails Lindes — manicures, gel extensions, nail art and pedicures.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css?v=60">
+  <link rel="icon" href="assets/logos/mark.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="demo-bar" role="note">
+    <strong data-i18n="demo.tag">Demo</strong>
+    <span data-i18n="demo.notice">Example site — images and text will be replaced with the client's own.</span>
+  </div>
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a class="brand" href="index.html" aria-label="Nails Lindes — home">
+        <img class="brand__wordmark brand__wordmark--dark" src="assets/logos/wordmark.svg" alt="Nails Lindes" width="150" height="32">
+        <img class="brand__wordmark brand__wordmark--light" src="assets/logos/wordmark-light.svg" alt="" width="150" height="32" aria-hidden="true">
+      </a>
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a class="nav__link" href="index.html" data-i18n="nav.home">Home</a>
+        <a class="nav__link" href="services.html" data-i18n="nav.services">Services</a>
+        <a class="nav__link" href="pricing.html" data-i18n="nav.pricing">Pricing</a>
+        <a class="nav__link" href="gallery.html" aria-current="page" data-i18n="nav.gallery">Gallery</a>
+        <a class="nav__link" href="booking.html" data-i18n="nav.booking">Booking</a>
+        <a class="nav__link" href="about.html" data-i18n="nav.about">About</a>
+        <a class="nav__link" href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang" role="group" aria-label="Language">
+          <button class="lang__btn" data-lang="en" type="button">EN</button>
+          <button class="lang__btn" data-lang="es" type="button">ES</button>
+          <button class="lang__btn" data-lang="ru" type="button">RU</button>
+        </div>
+        <a class="btn" href="booking.html" data-i18n="cta.book">Book now</a>
+        <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <h2 data-i18n="gallery.chooseTitle">Which gallery would you like to see?</h2>
+          <p data-i18n="gallery.chooseSub">Choose a specialty to view that work.</p>
+        </div>
+        <div class="gallery-choose">
+          <a class="choose-card reveal" href="gallery-grid.html?cat=mani">
+            <span class="choose-card__media"><img src="assets/img/choose-mani.webp?v=60" alt="" loading="lazy" width="800" height="800"></span>
+            <span class="choose-card__label" data-i18n="gallery.filterMani">Manicure</span>
+          </a>
+          <a class="choose-card reveal" href="gallery-grid.html?cat=feet">
+            <span class="choose-card__media"><img src="assets/img/choose-feet.webp?v=60" alt="" loading="lazy" width="800" height="800"></span>
+            <span class="choose-card__label" data-i18n="gallery.filterFeet">Pedicure</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section--tight section section--dark cta-band">
+      <div class="container">
+        <h2 data-i18n="gallery.ctaTitle">Like what you see?</h2>
+        <p data-i18n="gallery.ctaBody">Bring a reference or let us design something just for you.</p>
+        <a class="btn btn--light" data-book href="#" data-i18n="cta.bookAppt">Book an appointment</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a class="brand" href="index.html" aria-label="Nails Lindes — home">
+            <img class="footer-logo" src="assets/logos/wordmark-light.svg" alt="Nails Lindes" width="170" height="36">
+          </a>
+          <p class="muted" style="margin-top:1rem;max-width:34ch" data-i18n="footer.tagline">A boutique nail studio in Spain.</p>
+          <img class="footer-illus" src="assets/graphics/footer-illus.svg" alt="" width="120" height="90" style="margin-top:1.6rem">
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.explore">Explore</h4>
+          <ul>
+            <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+            <li><a href="pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+            <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+            <li><a href="booking.html" data-i18n="nav.booking">Booking</a></li>
+            <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+            <li><a href="about.html" data-i18n="nav.about">About</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Nails Lindes. <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <span data-i18n="footer.built">Vintage-elegant nail care.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js?v=60"></script>
+  <script src="assets/js/i18n.js?v=60"></script>
+  <script src="assets/js/main.js?v=60"></script>
+</body>
+</html>
