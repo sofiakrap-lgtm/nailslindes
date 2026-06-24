@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pricing — Nails Lindes</title>
-  <meta name="description" content="Transparent nail-care pricing at Nails Lindes. Clear prices for manicures, gel, extensions, nail art and pedicures — pay online or in studio.">
+  <meta name="description" content="Transparent pedicure pricing at Nails Lindes — express, classic, spa and medical pedicure plus add-ons. Pay by cash or bank transfer in studio.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -12,10 +12,6 @@
   <link rel="icon" href="assets/logos/mark.svg" type="image/svg+xml">
 </head>
 <body>
-  <div class="demo-bar" role="note">
-    <strong data-i18n="demo.tag">Demo</strong>
-    <span data-i18n="demo.notice">Example site — images and text will be replaced with the client's own.</span>
-  </div>
   <header class="site-header">
     <div class="container site-header__bar">
       <a class="brand" href="index.html" aria-label="Nails Lindes — home">
@@ -54,88 +50,27 @@
       <div class="container container--narrow">
         <div class="section-head section-head--center">
           <h2 data-i18n="pricing.heroTitle">Pricing</h2>
-        </div>
-        <!-- Tabs -->
-        <div class="price-tabs" role="tablist">
-          <button class="price-tab" role="tab" data-tab="hands" data-i18n="pricing.tabHands">Hands</button>
-          <button class="price-tab" role="tab" data-tab="ext" data-i18n="pricing.tabExt">Gel & extensions</button>
-          <button class="price-tab" role="tab" data-tab="art" data-i18n="pricing.tabArt">Nail art</button>
-          <button class="price-tab" role="tab" data-tab="feet" data-i18n="pricing.tabFeet">Feet</button>
-          <button class="price-tab" role="tab" data-tab="treat" data-i18n="menu.tabTreat">Treatments</button>
+          <p data-i18n="pricing.heroSub">Clear prices, no surprises.</p>
         </div>
 
-        <!-- Hands -->
-        <div data-price-panel="hands">
-          <div class="price-group">
-            <div class="price-group__title"><h3 data-i18n="pricing.groupHands">Manicures</h3></div>
-            <div class="price-list">
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.m_express">Express manicure</span><span class="price-item__price">€18</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.m_classic">Classic manicure</span><span class="price-item__price">€25</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.m_gel">Gel manicure</span><span class="price-item__price">€35</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.m_biab">BIAB / builder overlay</span><span class="price-item__price">€40</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.m_french">French manicure</span><span class="price-item__price">€38</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.m_spa">Spa manicure</span><span class="price-item__price">€45</span></div>
-            </div>
+        <!-- Pedicure -->
+        <div class="price-group">
+          <div class="price-group__title"><h3 data-i18n="pricing.groupFeet">Pedicure</h3></div>
+          <div class="price-list">
+            <div class="price-item"><span class="price-item__name" data-i18n="menu.p_express">Express pedicure</span><span class="price-item__price">€20</span></div>
+            <div class="price-item"><span class="price-item__name" data-i18n="menu.p_classic">Classic pedicure · regular polish</span><span class="price-item__price">€25</span></div>
+            <div class="price-item"><span class="price-item__name" data-i18n="menu.p_classicgel">Classic pedicure · gel polish</span><span class="price-item__price">€30</span></div>
+            <div class="price-item"><span class="price-item__name" data-i18n="menu.p_spa">Spa pedicure</span><span class="price-item__price">€30</span></div>
+            <div class="price-item"><span class="price-item__name" data-i18n="menu.p_medical">Medical pedicure · deep treatment, no polish</span><span class="price-item__price">€35</span></div>
           </div>
         </div>
 
-        <!-- Extensions -->
-        <div data-price-panel="ext" class="hidden">
-          <div class="price-group">
-            <div class="price-group__title"><h3 data-i18n="pricing.groupExt">Gel & extensions</h3></div>
-            <div class="price-list">
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.e_gelset">Gel extensions</span><span class="price-item__price"><span data-i18n="pricing.from">from</span> €55</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.e_acrylic">Acrylic extensions</span><span class="price-item__price"><span data-i18n="pricing.from">from</span> €55</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.e_polygel">Polygel set</span><span class="price-item__price"><span data-i18n="pricing.from">from</span> €58</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.e_hardgel">Hard gel overlay</span><span class="price-item__price">€42</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.e_infill">Infill / refill</span><span class="price-item__price">€40</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.e_repair">Single nail repair</span><span class="price-item__price">€5</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.e_removal">Removal / soak-off</span><span class="price-item__price">€12</span></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Nail art -->
-        <div data-price-panel="art" class="hidden">
-          <div class="price-group">
-            <div class="price-group__title"><h3 data-i18n="pricing.groupArt">Nail art & finishing</h3></div>
-            <div class="price-list">
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.a_two">Accent nails (×2)</span><span class="price-item__price">€5</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.a_french">French / ombré</span><span class="price-item__price">€8</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.a_chrome">Chrome / cat-eye</span><span class="price-item__price">€10</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.a_foil">Foil / marble</span><span class="price-item__price">€10</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.a_painted">Hand-painted design</span><span class="price-item__price"><span data-i18n="pricing.from">from</span> €15</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.a_gems">Rhinestones / gems</span><span class="price-item__price"><span data-i18n="pricing.from">from</span> €12</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.a_full">Full bespoke set</span><span class="price-item__price"><span data-i18n="pricing.from">from</span> €25</span></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Feet -->
-        <div data-price-panel="feet" class="hidden">
-          <div class="price-group">
-            <div class="price-group__title"><h3 data-i18n="pricing.groupFeet">Pedicures</h3></div>
-            <div class="price-list">
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.p_express">Express pedicure</span><span class="price-item__price">€30</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.p_classic">Classic pedicure</span><span class="price-item__price">€35</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.p_gel">Gel pedicure</span><span class="price-item__price">€45</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.p_spa">Spa pedicure</span><span class="price-item__price">€55</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.p_callus">Callus / hard-skin care</span><span class="price-item__price">€15</span></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Treatments -->
-        <div data-price-panel="treat" class="hidden">
-          <div class="price-group">
-            <div class="price-group__title"><h3 data-i18n="menu.groupTreat">Treatments & care</h3></div>
-            <div class="price-list">
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.t_cuticle">Cuticle treatment</span><span class="price-item__price">€12</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.t_paraffin">Paraffin wax</span><span class="price-item__price">€18</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.t_ibx">IBX strengthening</span><span class="price-item__price">€20</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.t_massage">Hand & arm massage</span><span class="price-item__price">€15</span></div>
-              <div class="price-item"><span class="price-item__name" data-i18n="menu.t_repair">Repair & reshape</span><span class="price-item__price">€10</span></div>
-            </div>
+        <!-- Add-ons -->
+        <div class="price-group">
+          <div class="price-group__title"><h3 data-i18n="pricing.groupAddons">Add-ons</h3></div>
+          <div class="price-list">
+            <div class="price-item"><span class="price-item__name" data-i18n="menu.add_callus">Core callus removal</span><span class="price-item__price">€5</span></div>
+            <div class="price-item"><span class="price-item__name" data-i18n="menu.add_cracks">Heel-crack treatment</span><span class="price-item__price">€5</span></div>
           </div>
         </div>
 
@@ -150,19 +85,19 @@
           <div class="notes-grid__row">
             <div class="note-col">
               <h4 data-i18n="pricing.note1Label">Included</h4>
-              <p data-i18n="pricing.note1">Prices are in euros and include a consultation.</p>
+              <p data-i18n="pricing.note1">Prices are in euros and include a short consultation.</p>
             </div>
             <div class="note-col">
-              <h4 data-i18n="pricing.note2Label">Removal</h4>
-              <p data-i18n="pricing.note2">Soak-off / removal of a previous set: from €10.</p>
+              <h4 data-i18n="pricing.note2Label">Consultation</h4>
+              <p data-i18n="pricing.note2">Free consultation on WhatsApp — send a photo and describe your case.</p>
             </div>
             <div class="note-col">
-              <h4 data-i18n="pricing.note3Label">Custom work</h4>
-              <p data-i18n="pricing.note3">Designs and length above the standard are quoted before we start.</p>
+              <h4 data-i18n="pricing.note3Label">Add-ons</h4>
+              <p data-i18n="pricing.note3">Core callus removal and heel-crack treatment can be added to any pedicure.</p>
             </div>
             <div class="note-col">
               <h4 data-i18n="pricing.note4Label">Payment</h4>
-              <p data-i18n="pricing.note4">Pay online at the time of booking, or in the studio — card or cash.</p>
+              <p data-i18n="pricing.note4">Pay at the studio by cash or bank transfer. No card payment.</p>
             </div>
           </div>
         </div>
@@ -179,7 +114,7 @@
           <a class="brand" href="index.html" aria-label="Nails Lindes — home">
             <img class="footer-logo" src="assets/logos/wordmark-light.svg" alt="Nails Lindes" width="170" height="36">
           </a>
-          <p class="muted" style="margin-top:1rem;max-width:34ch" data-i18n="footer.tagline">A boutique nail studio in Spain.</p>
+          <p class="muted" style="margin-top:1rem;max-width:34ch" data-i18n="footer.tagline">A boutique pedicure studio in Spain.</p>
           <img class="footer-illus" src="assets/graphics/footer-illus.svg" alt="" width="120" height="90" style="margin-top:1.6rem">
         </div>
         <div class="footer-col">
@@ -197,7 +132,7 @@
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>2026</span> Nails Lindes. <span data-i18n="footer.rights">All rights reserved.</span></span>
-        <span data-i18n="footer.built">Vintage-elegant nail care.</span>
+        <span data-i18n="footer.built">Vintage-elegant foot care.</span>
       </div>
     </div>
   </footer>
